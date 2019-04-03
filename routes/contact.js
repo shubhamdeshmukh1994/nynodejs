@@ -3,7 +3,7 @@ var router = express.Router();
 var http = require('http');
 
   router.get('/', function(req, res, next){
-    res.render('contact', { title: 'this is the contact page'});
+    res.render('contact', { title: 'Contact Us'});
   });
      
 module.exports = router;
